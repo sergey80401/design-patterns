@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spells.Domain", "Spells.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWithoutPattern", "ExampleWithoutPattern\ExampleWithoutPattern.csproj", "{6E60038D-E8AC-4415-A163-EC34C58B1131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExapmleWithPatternUsing", "ExapmleWithPatternUsing\ExapmleWithPatternUsing.csproj", "{BD02C7E1-E7AD-44B4-9E26-551D90529F59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6E60038D-E8AC-4415-A163-EC34C58B1131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E60038D-E8AC-4415-A163-EC34C58B1131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E60038D-E8AC-4415-A163-EC34C58B1131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD02C7E1-E7AD-44B4-9E26-551D90529F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD02C7E1-E7AD-44B4-9E26-551D90529F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD02C7E1-E7AD-44B4-9E26-551D90529F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD02C7E1-E7AD-44B4-9E26-551D90529F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
