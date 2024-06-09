@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Movements.Domain\Movements.Domain.csproj" />
+      <ProjectReference Include="..\Spells.Domain\Spells.Domain.csproj" />
+      <ProjectReference Include="..\Weapons.Domain\Weapons.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
