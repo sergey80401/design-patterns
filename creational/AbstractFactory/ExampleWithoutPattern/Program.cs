@@ -42,63 +42,89 @@ internal static class Program
 {
     public static void Main(string[] args)
     {
-        // A warrior with a sword who can run but cannot cast spells
-        var warrior = new Hero(
+        // Let's create 3 warriors
+        var warrior1 = new Hero(
             new Sword(),
             null,
             new RunMovement()
         );
         
-        // An archer who can run, but cannot cast spells
-        var archer = new Hero(
-            new Bow(),
+        var warrior2 = new Hero(
+            new Sword(),
             null,
             new RunMovement()
         );
         
-        var killer = new Hero(
-            new Pistol(),
-            new FalconVision(),
+        var warrior3 = new Hero(
+            new Sword(),
+            null,
             new RunMovement()
         );
         
-        // Fire mage
-        var fireMage = new Hero(
+        // Let's create two fire magicians and three ice magicians
+        var fireMage1 = new Hero(
+            null,
+            new FireBall(),
+            new FlyMovement()
+        );
+        
+        var fireMage2 = new Hero(
             null,
             new FireBall(),
             new FlyMovement()
         );
 
-        // Frozen mage
-        var frozenMage = new Hero(
+        var frozenMage1 = new Hero(
             null,
             new FrozenTouch(),
             new FlyMovement()
         );
         
-        // Warrior gameplay
-        warrior.Move();
-        warrior.Hit();
-        warrior.Cast();
+        var frozenMage2 = new Hero(
+            null,
+            new FrozenTouch(),
+            new FlyMovement()
+        );
         
-        // Archer gameplay
-        archer.Move();
-        archer.Hit();
-        archer.Cast();
+        var frozenMage3 = new Hero(
+            null,
+            new FrozenTouch(),
+            new FlyMovement()
+        );
         
-        // Killer gameplay
-        killer.Move();
-        killer.Hit();
-        killer.Cast();
+        // Some warrior gameplay
+        // The first warrior runs and fights
+        warrior1.Move();
+        warrior1.Hit();
         
-        // FireMage gameplay
-        fireMage.Move();
-        fireMage.Hit();
-        fireMage.Cast();
+        // The second one hopes that he is a magician
+        warrior2.Cast();
+        warrior2.Cast();
+        warrior2.Cast();
+        warrior2.Cast();
+        warrior2.Cast();
         
-        // FrozenMge gameplay
-        frozenMage.Move();
-        frozenMage.Hit();
-        frozenMage.Cast();
+        // The third warrior is still running somewhere
+        warrior3.Move();
+        warrior3.Move();
+        warrior3.Move();
+        warrior3.Move();
+        
+        // Some mage gameplay
+        // Fire mages love to fly up and throw fireballs from high
+        fireMage1.Move();
+        fireMage1.Cast();
+        fireMage2.Move();
+        fireMage2.Cast();
+        
+        // Two ice mages attack while standing still
+        frozenMage1.Cast();
+        frozenMage1.Cast();
+        frozenMage2.Cast();
+        frozenMage2.Cast();
+        
+        // And others are stupid and think they have weapons
+        frozenMage3.Cast();
+        frozenMage3.Cast();
     }
 }
