@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spells.Domain", "Spells.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWithoutPattern", "ExampleWithoutPattern\ExampleWithoutPattern.csproj", "{6E60038D-E8AC-4415-A163-EC34C58B1131}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExapmleWithPatternUsing", "ExapmleWithPatternUsing\ExapmleWithPatternUsing.csproj", "{BD02C7E1-E7AD-44B4-9E26-551D90529F59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWithPatternUsing", "ExampleWithPatternUsing\ExampleWithPatternUsing.csproj", "{BD02C7E1-E7AD-44B4-9E26-551D90529F59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
